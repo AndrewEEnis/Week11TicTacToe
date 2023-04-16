@@ -1,0 +1,21 @@
+*{
+    background-color: rgb(138, 141, 143) ;
+}
+
+.cell {
+    background: rgb(138, 141, 143);
+    height: 120px;
+    width: 120px;
+    border: 2px solid;
+    color: rgb(0, 48, 135);
+    line-height: 120px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin-left: 60px;
+}

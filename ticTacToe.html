@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="game.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <body>
+      <div id="gameBoard">
+        <div class="container-fluid text-center">
+          <h1 style="color: rgb(0, 48, 135)">Tic Tac Toe</h1>
+          <div class="row">
+            <div class="col-sm-12">
+              <h3 id="gameStatus" style="color: rgb(0, 106, 56)"></h3>
+            </div>
+            <div class="col-sm-4"></div>
+            <div id="cellContainer">
+              <div cellIndex="0" class="cell"></div>
+              <div cellIndex="1" class="cell"></div>
+              <div cellIndex="2" class="cell"></div>
+              <div cellIndex="3" class="cell"></div>
+              <div cellIndex="4" class="cell"></div>
+              <div cellIndex="5" class="cell"></div>
+              <div cellIndex="6" class="cell"></div>
+              <div cellIndex="7" class="cell"></div>
+              <div cellIndex="8" class="cell"></div>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+              <button id="resetGame" class="text-dark">Restart Game</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="node_modules/jquery/dist/jquery.js"></script>
+      <script src="game.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+  </body>
+</html>
